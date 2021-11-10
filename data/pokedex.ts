@@ -17068,4 +17068,17 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	dekumin: {
+		num: 10001,
+		name: "Dekumin",
+		types: ["Grass"],
+		genderRatio: {M: 0.875, F: 0.125},
+		baseStats: {hp: 45, atk: 35, def: 65, spa: 50, spd: 65, spe: 60},
+		abilities: {0: "Overgrow", H: "Guts", S: "Huge Power"},
+		heightm: 0.6,
+		weightkg: 5.1,
+		color: "Green",
+		evos: ["Mintoriya"],
+		eggGroups: ["Grass", "Human-Like"],
+	},
 };
